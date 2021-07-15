@@ -5,16 +5,34 @@
   --white-color: #dff3e4;
 }
 
+.odd {
+  font-weight: 100;
+}
+
+.even {
+  font-weight: bold;
+}
+
+.logoFont {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
 body {
   color: var(--dark-color);
+  font-family: 'Open Sans', sans-serif;
 }
 
 nav {
   background-color: var(--dark-color);
+  font-family: 'Open Sans', sans-serif;
 }
 
 footer {
   background-color: var(--dark-color);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
 }
 
 h1,
@@ -24,10 +42,13 @@ h4,
 h5,
 h6 {
   color: var(--primary-color);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
 }
 
 footer {
   padding-right: 1rem;
+  font-family: 'Open Sans', sans-serif;
 }
 
 footer .social > a {
